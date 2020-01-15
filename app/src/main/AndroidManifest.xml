@@ -9,13 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".Ejemplo3.MainFragmentCorreo"></activity>
+        <activity android:name=".Ejemplo2.DetalleCorreo" />
+        <activity android:name=".Ejemplo2.ListaCorreo" />
+
+        <activity android:name=".EjemplosFragment">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Ejemplo1.ListaFragmento" />
+        <activity android:name=".Ejemplo1.GridFragmento" />
+        <activity android:name=".Ejemplo1.MainActivity"></activity>
+
+
     </application>
 
 </manifest>

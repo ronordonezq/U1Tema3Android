@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">u1tema3</string>
+    <string name="main_activity">Main Activity</string>
+    <string name="lista_correo">Lista Correo</string>
+    <string name="lista_correo_fragment">Lista Correo Fragment</string>
 </resources>
